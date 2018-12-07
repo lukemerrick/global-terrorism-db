@@ -3,6 +3,13 @@ global-terrorism-db
 
 Identifying organizations from the nature of their activities
 
+Getting Started
+------------
+While this project is set up using the cookiecutter data science format, I have actually opted to keep all of the code in Jupyter notebooks for the sake of presenting a lot of commentary alongside the code. Please refer to the following notebooks:
+
+- [Part 1: Import, EDA, and feature engineering](https://github.com/lukemerrick/global-terrorism-db/blob/master/notebooks/1_global_terrorism_import_eda_features.ipynb)
+- [Part 2: ML](https://github.com/lukemerrick/global-terrorism-db/blob/master/notebooks/2_global_terrorism_ml.ipynb)
+
 Project Organization
 ------------
 
