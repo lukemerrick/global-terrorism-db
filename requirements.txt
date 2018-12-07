@@ -1,29 +1,26 @@
-# local package
--e .
-
-# cookiecutter external requirements
-# [see below] click
-Sphinx
-coverage
-awscli
-flake8
-
-# installed packages
-python-dotenv>=0.5.1
+alabaster==0.7.12
 arrow==0.12.1
+awscli==1.16.69
+Babel==2.6.0
 backcall==0.1.0
 binaryornot==0.4.4
 bleach==3.0.2
+botocore==1.12.59
 certifi==2018.11.29
 chardet==3.0.4
 Click==7.0
+colorama==0.3.9
 cookiecutter==1.6.0
+coverage==4.5.2
 cycler==0.10.0
 decorator==4.3.0
 defusedxml==0.5.0
+docutils==0.14
 entrypoints==0.2.3
+flake8==3.6.0
 future==0.17.1
 idna==2.7
+imagesize==1.1.0
 ipykernel==5.1.0
 ipython==7.2.0
 ipython-genutils==0.2.0
@@ -31,6 +28,7 @@ ipywidgets==7.4.2
 jedi==0.13.1
 Jinja2==2.10
 jinja2-time==0.2.0
+jmespath==0.9.3
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.3
@@ -40,12 +38,14 @@ kiwisolver==1.0.1
 lightgbm==2.2.2
 MarkupSafe==1.1.0
 matplotlib==3.0.2
+mccabe==0.6.1
 missingno==0.4.1
 mistune==0.8.4
 nbconvert==5.4.0
 nbformat==4.4.0
 notebook==5.7.2
 numpy==1.15.4
+packaging==18.0
 pandas==0.23.4
 pandocfilters==1.4.2
 parso==0.3.1
@@ -55,24 +55,39 @@ poyo==0.4.2
 prometheus-client==0.4.2
 prompt-toolkit==2.0.7
 ptyprocess==0.6.0
+pyasn1==0.4.4
+pycodestyle==2.4.0
+pyflakes==2.0.0
 Pygments==2.3.0
 pyparsing==2.3.0
 python-dateutil==2.7.5
+python-dotenv==0.10.0
 pytz==2018.7
+PyYAML==3.13
 pyzmq==17.1.2
 qtconsole==4.4.3
 requests==2.20.1
+rsa==3.4.2
+s3transfer==0.1.13
 scikit-learn==0.20.1
+scikit-optimize==0.5.2
 scipy==1.1.0
 seaborn==0.9.0
 Send2Trash==1.5.0
 six==1.11.0
+snowballstemmer==1.2.1
+Sphinx==1.8.2
+sphinxcontrib-websupport==1.1.0
 terminado==0.8.1
 testpath==0.4.2
 tornado==5.1.1
+tqdm==4.28.1
 traitlets==4.3.2
 urllib3==1.24.1
 wcwidth==0.1.7
 webencodings==0.5.1
 whichcraft==0.5.2
 widgetsnbextension==3.4.2
+xlrd==1.1.0
+
+-e .
